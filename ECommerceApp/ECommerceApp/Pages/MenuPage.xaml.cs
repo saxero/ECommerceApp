@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ECommerceApp.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,7 @@ namespace ECommerceApp.Pages
     {
         public MenuPage()
         {
+            
             InitializeComponent();
         }
     }
