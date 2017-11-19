@@ -70,7 +70,7 @@ public partial class App : Application
             //MainPage = new ECommerceApp.MainPage();
             MainPage = new MasterPage();
         }
-        ```
+```
 4. Custom launcher icon:  we can use a custom icon for launching the app. This icon is not visible when running the app, but in the device collection of apps.  Find a free nice icon at https://www.iconfinder.com and download it.
 
 Upload the icon at romannurik.github.io/AndroidAssetStudio in order to customize the colors, shape and download the dufferent andoid png versions.  Then, extract each file and place into the Resources folder (Android project):
@@ -85,4 +85,3 @@ Once the files are copied, remember to add them to the project (via Solution Exp
 ```c#
  [Activity(Label = "ECommerce App", Icon = "@drawable/ic_launcher", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
 ```
-
