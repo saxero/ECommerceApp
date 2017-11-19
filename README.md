@@ -77,7 +77,10 @@ public partial class App : Application
 - drawable-xxhdpi
 - put the drawable-hdpi version in drawable folder as well
 
+Once the files are copies, remember to add them to the project (via Solution Explorer).
+
 5. Open MainActivity.cs (Android project) and change the Icon property:
 ```c#
  [Activity(Label = "ECommerce App", Icon = "@drawable/ic_launcher", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
 ```
+
