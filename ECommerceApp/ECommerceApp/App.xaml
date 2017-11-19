@@ -7,10 +7,10 @@
 		<!-- Application resource dictionary -->
         <ResourceDictionary>
             <Color x:Key="MainColor">#1b2b32</Color>
-            <Color x:Key="FontColor">#e1e7e8</Color>
+            <Color x:Key="FontColor">#1b2b32</Color>
             <Color x:Key="MenuColor">#a3abaf</Color>
             <Color x:Key="MenuFontColor">#e1e7e8</Color>
-            <Color x:Key="BackgroundColor">#37646b</Color>
+            <Color x:Key="BackgroundColor">#e1e7e8</Color>
             <Color x:Key="AccentColor">#b22e2f</Color>
         </ResourceDictionary>
 	</Application.Resources>
