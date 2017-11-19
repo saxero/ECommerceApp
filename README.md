@@ -28,7 +28,7 @@ Change _MasterPage_ xaml from COntentpage to MasterDetailPage and set the master
         <pages:MenuPage></pages:MenuPage>
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>
-        <NavigationPage x:Name="Navigator">
+        <NavigationPage x:Name="Navigator" BackgroundColor="{StaticResource MainColor}">
             <x:Arguments>
                 <pages:UserPage>           
                 </pages:UserPage>
