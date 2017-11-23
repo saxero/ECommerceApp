@@ -36,7 +36,7 @@ namespace ECommerceApp.ViewModels
             Menu.Add(new MenuItemViewModel
             {
                 Icon = "ic_action_customer.png",
-                PageName = "ProducsPage",
+                PageName = "CustomersPage",
                 Title = "Clientes"
             });
 

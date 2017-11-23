@@ -7,7 +7,33 @@
              BindingContext="{Binding Main, Source={StaticResource Locator}}"
              >
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Padding="8">
+            <StackLayout Orientation="Horizontal">
+                <Label
+                    Text="E-Commerce"
+                    TextColor="{StaticResource AccentColor}"
+                    FontSize="24"
+                    FontAttributes="Bold"
+                    HorizontalOptions="StartAndExpand"
+                    VerticalOptions="Center"
+                    
+                    >
+                
+                </Label>
+                <Image
+                    Source="ic_launcher.png"
+                    WidthRequest="80"
+                    HeightRequest="80"
+                    VerticalOptions="Center"
+                    HorizontalOptions="End"
+                    >
+                </Image>
+            </StackLayout>
+            <BoxView
+                Color="{StaticResource AccentColor}"
+                HeightRequest="3"
+                >
+            </BoxView>
             <ListView ItemsSource="{Binding Menu}" HasUnevenRows="True">
                 <ListView.ItemTemplate>
                 <DataTemplate>
