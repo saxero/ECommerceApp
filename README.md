@@ -203,7 +203,7 @@ App.xaml:
 </Application>
 ```
 9. Bind the menu.
-A new class InstanceLocator is in charge of create a new instance of MainViewModel and publish it through a public property (Menu as it is needed in the ListView):
+A new class InstanceLocator is in charge of creating a new instance of MainViewModel and publish it through a public property (Menu as it is needed in the ListView):
 ```c#
 namespace ECommerceApp.Infrastructure
 {
