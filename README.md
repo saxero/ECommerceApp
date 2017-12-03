@@ -142,9 +142,9 @@ The menuPage.xaml will display the menu.  It implements a list of items that wil
     - a grid is used to place the info in columns (width="Auto" allows to get the necessary spacefor the first element).
     - BindingContext="{Binding Main, Source={StaticResource Locator}}:
     The page will be binded to a property/object called _Main_.  This _Main_ must be defined in the source pointed by _Locator_ (InstanceLocator.cs).  _Main_ is of type MainViewModel, which provides a public propeerty called _Menu_, allowing access to all the menu items.  
-    Threfore, MenuPage is binded to Main
-    ListView is binded to Menu
-    Each ItemTemplate is binded to each element of Menu
+    - Threfore, MenuPage is binded to Main
+    - ListView is binded to Menu
+    - Each ItemTemplate is binded to each element of Menu
     
 MenuPage.xaml:
 ```xml
